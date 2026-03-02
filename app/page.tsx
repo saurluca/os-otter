@@ -1,18 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const GALERIE_IMAGES = [
-  "images/main.jpeg",
-  "images/main2.jpeg",
-  "images/cross.jpeg",
-  "images/f09aa62e-c82d-4bf3-965b-8c53286d71a1.jpeg",
-  "images/8d1d191f-fd91-46c6-8ccb-6f72a8d31f66.jpeg",
-  "images/8fd70895-76f0-48fb-b64b-a10e1fdbe026.jpeg",
-  "images/39db513c-0021-4ec3-8dcf-c5288fe28d40.jpeg",
-  "images/df965e88-e1d4-45ff-8bcf-8ca7d71a93ab.jpeg",
-  "images/bc2ef12b-bb0b-4780-adee-bffe6094cd62.jpeg",
-  "images/5a4e3248-42f9-4ff4-8511-7bc1368c551a.jpeg",
-];
+import ImageGallery from "@/components/ImageGallery";
 
 export default function Home() {
   return (
@@ -95,22 +83,7 @@ export default function Home() {
         {/* 3. Image Showcase */}
         <section className="border-t border-amber-900/20 bg-white px-4 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-6xl">
-            <div className="grid grid-cols-2 gap-2 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
-              {GALERIE_IMAGES.slice(0, 8).map((src, i) => (
-                <div
-                  key={src}
-                  className="group relative aspect-[4/3] overflow-hidden rounded-lg shadow-md ring-2 ring-amber-900/10 transition-transform hover:scale-[1.02] hover:shadow-xl"
-                >
-                  <Image
-                    src={`/${src}`}
-                    alt={`Pfadfinder-Erlebnis ${i + 1}`}
-                    fill
-                    className="object-cover transition-transform group-hover:scale-105"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                </div>
-              ))}
-            </div>
+            <ImageGallery />
           </div>
         </section>
 
