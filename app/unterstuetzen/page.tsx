@@ -26,6 +26,13 @@ export default function UnterstuetzenPage() {
             <p className="mt-4 text-zinc-600 leading-relaxed">
               Wir brauchen Mittel für die Pacht unserer Wiese, für Material, Programm und Aktionen. Jede Spende ist willkommen! Die Landeskirchliche Gemeinschaft Osnabrück ist gemeinnützig – zum Jahresanfang erhältst du eine Spendenquittung.
             </p>
+            <div className="mt-6 rounded-lg border border-zinc-200 bg-white p-6 font-mono text-sm text-zinc-700">
+              <p className="font-sans font-semibold text-zinc-900">Landeskirchliche Gemeinschaft e.V.</p>
+              <p className="mt-1">Sparkasse Osnabrück</p>
+              <p className="mt-2">IBAN: DE49 2655 0105 0000 6802 49</p>
+              <p>BIC: NOLADE22XXX</p>
+              <p className="mt-2 font-sans">Verwendungszweck: Spende PEC-Pfadfinder</p>
+            </div>
           </section>
 
           <section>
