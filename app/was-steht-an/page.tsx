@@ -22,7 +22,7 @@ export default function WasStehtAnPage() {
 
         <div className="mt-10 space-y-6">
           <article className="rounded-lg border border-amber-900/20 bg-white p-6 shadow-sm">
-            <h2 className="text-xl font-bold text-[#1b5e20]">Heijke</h2>
+            <h2 className="text-xl font-bold text-[#1b5e20]">Haijk</h2>
             <p className="mt-2 font-medium text-zinc-700">25.04. – 26.04.2026</p>
             <p className="mt-2 text-zinc-600">Wanderung mit Rucksack und Übernachtung</p>
           </article>
