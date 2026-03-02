@@ -11,18 +11,18 @@ export default function Footer() {
             Copyright © {currentYear} - PEC Osnabrücker Otter - Stamm 0904
           </p>
           <nav className="flex flex-wrap justify-center gap-4 sm:gap-6">
-            <a
-              href="#"
+            <Link
+              href="/impressum"
               className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
             >
               Impressum
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/impressum#datenschutz"
               className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
             >
               Datenschutzerklärung
-            </a>
+            </Link>
             <Link
               href="/jugendschutz"
               className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
