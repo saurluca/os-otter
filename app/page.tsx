@@ -19,24 +19,43 @@ export default function Home() {
           id="hero"
           className="flex min-h-[70vh] flex-col items-center justify-center bg-[#1b5e20] px-4 py-20 text-center sm:px-6 lg:px-8"
         >
-          <p className="text-lg font-medium text-white/90 sm:text-xl">
-            Osnabrücker Otter
-          </p>
-          <h1 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            PEC - Pfadfinder Osnabrücker Otter
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Willkommen bei den Pfadfindern
           </h1>
-          <p className="mt-4 text-xl font-medium text-white/95 sm:text-2xl">
-            Entschieden für Christus
+          <div className="mt-8 max-w-2xl space-y-4 text-lg text-white/95">
+            <p>Die Funken steigen in den Abendhimmel.</p>
+            <p>Holz knackt im Feuer.</p>
+            <p>Über dem Feuer köchelt der Tschai.</p>
+            <p className="font-medium">Und du mittendrin.</p>
+          </div>
+          <div className="mt-10 max-w-2xl space-y-3 text-left text-base text-white/90">
+            <p>Hast du Lust zu lernen, wie man mit nur einem Streichholz ein Feuer entfacht?</p>
+            <p>Willst du wissen, wie man mit Karte und Kompass den richtigen Weg findet – auch wenn es quer durch Wald und Wiese geht?</p>
+            <p>Fragst du dich, was Kohten und Jurten sind und warum sie nach Abenteuer riechen?</p>
+            <p>Bist du gern draußen unterwegs, liebst Wind im Gesicht und Matsch an den Schuhen?</p>
+            <p>Suchst du echte Gemeinschaft, die trägt – und Freunde, auf die man sich verlassen kann?</p>
+            <p>Möchtest du herausfinden, was in dir steckt?</p>
+            <p>Und entdecken, dass du gewollt bist – von Menschen und von Gott?</p>
+          </div>
+          <p className="mt-10 text-xl font-semibold text-white">
+            Dann bist du bei uns genau richtig.
           </p>
-          <p className="mt-2 text-lg text-white/80">
-            Stamm 0904
+          <p className="mt-4 max-w-2xl text-lg text-white/95">
+            Hier wird gesungen und gelacht.
+            <br />
+            Hier wird ausprobiert, gebaut und gewagt.
+            <br />
+            Hier wachsen Mut, Verantwortung und Vertrauen.
           </p>
-          <p className="mt-6 max-w-2xl text-lg text-white/90">
-            Neue Abenteuer erleben
+          <p className="mt-8 text-xl font-bold text-white">
+            Lass dein Abenteuer beginnen.
+          </p>
+          <p className="mt-2 text-lg font-medium text-white/90">
+            Allzeit bereit!
           </p>
           <a
             href="#ueber-uns"
-            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-white px-8 font-medium text-[#1b5e20] transition-colors hover:bg-white/90"
+            className="mt-10 inline-flex h-12 items-center justify-center rounded-full bg-white px-8 font-medium text-[#1b5e20] transition-colors hover:bg-white/90"
           >
             Mehr erfahren
           </a>
@@ -47,25 +66,119 @@ export default function Home() {
           id="ueber-uns"
           className="border-t-2 border-[#1b5e20]/20 bg-white px-4 py-16 sm:px-6 lg:px-8"
         >
-          <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-[#1b5e20]">Über uns</h2>
-            <p className="mt-4 text-lg font-medium text-zinc-700">
-              Schön, dass du bei uns vorbeischaust!
-            </p>
-            <p className="mt-6 text-zinc-600 leading-relaxed">
-              Wir sind die Osnabrücker Otter des christlichen Pfadfinderbundes
-              PEC (Pfadfinder entschieden für Christus). Unsere Sippen treffen
-              sich regelmäßig zum gemeinsamen Stammtreff.
-            </p>
-            <p className="mt-4 text-zinc-600 leading-relaxed">
-              Wann sich welche Sippe trifft, kannst du unter „Sei dabei!“
-              erfahren. Unser Stamm besteht aus abenteuerlustigen
-              Pfadfinderinnen und Pfadfindern im Alter von 6 bis 60+ Jahren.
-            </p>
-            <p className="mt-6 text-zinc-600 leading-relaxed">
-              Hier haben wir für dich die wichtigsten Informationen über unseren
-              Stamm zusammengestellt.
-            </p>
+          <div className="mx-auto max-w-3xl space-y-16">
+            <div>
+              <h2 className="text-3xl font-bold text-[#1b5e20]">
+                Pfadfinder – was ist das eigentlich?
+              </h2>
+              <p className="mt-6 text-zinc-600 leading-relaxed">
+                Pfadfinder gibt es seit 1907. Die Idee hatte Robert Baden-Powell in England: Kinder und Jugendliche sollen Abenteuer erleben, Verantwortung übernehmen und Gemeinschaft über soziale Grenzen hinweg erfahren.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Heute ist daraus eine weltweite Bewegung mit rund 60 Millionen Mitgliedern in über 200 Ländern geworden. Sogar der erste Mensch auf dem Mond, Neil Armstrong, war Pfadfinder – ebenso wie Queen Elizabeth II.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Unser Grundprinzip heißt: „Learning by doing“ – Lernen durch Ausprobieren.
+                Wir lernen nicht aus Büchern, sondern indem wir Feuer machen, Zelte bauen, unterwegs sind und Verantwortung übernehmen. Dabei darf man Neues wagen – und auch aus Fehlern lernen.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Unser gemeinsames Zeichen ist die Kluft: Hemd und Halstuch. Sie ist praktisch für draußen, schafft Zusammenhalt und zeigt: Hier zählt nicht, woher du kommst, sondern dass du dabei bist.
+                Uns ist wichtig: Die Kluft ist kein militärisches Uniformstück, sondern Ausdruck von Gemeinschaft und Gleichwertigkeit.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-[#1b5e20]">
+                Was Kinder bei uns lernen können
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                In unserer Pfadfinderarbeit lernen Kinder und Jugendliche,
+              </p>
+              <ul className="mt-4 list-inside list-disc space-y-2 text-zinc-600">
+                <li>Verantwortung zu übernehmen,</li>
+                <li>als Team zusammenzuarbeiten,</li>
+                <li>Konflikte fair und konstruktiv zu lösen,</li>
+                <li>mit wenig auszukommen,</li>
+                <li>Herausforderungen mutig anzugehen,</li>
+                <li>die Natur kennenzulernen, zu schätzen und zu schützen,</li>
+                <li>sich selbst und anderen mit Respekt zu begegnen.</li>
+              </ul>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Und das alles ganz analog – draußen, miteinander, im echten Leben.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Als Stamm gehören wir zum PEC (Pfadfinder Entschieden für Christus). Wir sind christliche Pfadfinder.
+                Das bedeutet: Wir sehen jeden Menschen als von Gott gewollt und geliebt. Diese Haltung prägt unser Miteinander. Geschichten, Impulse und Gespräche über Glauben gehören zu unserem Programm dazu.
+                Dabei gilt: Eine Kirchenzugehörigkeit ist keine Voraussetzung.
+                Unser Angebot ist offen für alle.
+                Jeder ist bei uns willkommen.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-[#1b5e20]">
+                Was haben Pfadfinder mit Ottern zu tun?
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                In unserem Pfadfinderbund bekommt jeder Stamm den Namen eines Tieres – eines Tieres, dessen Eigenschaften wir uns für unseren Stamm wünschen.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Otter sind faszinierende Tiere: Sie schlafen nachts auf dem Wasser und halten sich dabei fest, damit niemand verloren geht. Genau das zeigt auch unser Logo.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Wir wollen eine Gemeinschaft sein, die trägt – füreinander da ist, einander Halt gibt und Abenteuer gemeinsam meistert.
+                Deshalb sind wir die Osnabrücker Otter.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-[#1b5e20]">
+                Wie sind wir entstanden?
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                2021, mitten in der Coronakrise, setzten sich ein paar engagierte Mitarbeitende der Landeskirchliche Gemeinschaft Osnabrück zusammen. Sie wollten Kindern trotz Einschränkungen ein echtes Abenteuer ermöglichen – weit weg von Bildschirmen und Computern.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Als Rike, Katha und Vicky von ihren eigenen Pfadfindererlebnissen erzählten, war die Begeisterung sofort da. So entstand die Idee: Ein eigener Stamm – die Osnabrücker Otter.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Am 23. September 2021 fand unsere erste Gruppenstunde im Haus der LKG statt.
+                Seit Mai 2022 haben wir unsere eigene Wiese am Hörner Weg – unser Zuhause für Abenteuer, Gemeinschaft und unvergessliche Erlebnisse.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                So begann unsere Reise. Und sie geht weiter – mutig, gemeinsam und mit offenen Armen für jedes neue Mitglied.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-[#1b5e20]">
+                Was ist die Landeskirchliche Gemeinschaft Osnabrück– und warum ist das wichtig?
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Die Landeskirchliche Gemeinschaft Osnabrück (LKG) ist die Keimzelle unseres Stammes. Hier entstand die Idee, eine Pfadfindergruppe zu gründen, um Kindern auch in der Coronazeit ein echtes Abenteuer zu ermöglichen.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Die LKG ist eine Gemeinde innerhalb der evangelischen Landeskirche im Stadtteil Wüste. Menschen unterschiedlichster Generationen treffen sich hier, um gemeinsam Glauben zu leben und in guten wie in schweren Zeiten füreinander da zu sein.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Unser Haus steht in der Langen Straße 19a.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Anders als große Gemeinden wie Katharinen oder Marien finanziert sich die LKG ausschließlich durch Spenden.
+                Die meisten unserer Mitarbeitenden gehören selbst zur LKG, und die Gemeinde unterstützt unsere Pfadfinderarbeit sowohl tatkräftig als auch finanziell.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Wichtig: Eine Mitgliedschaft in der LKG oder eine bestimmte Konfession ist für die Teilnahme an unseren Stammestreffen keine Voraussetzung – jeder ist herzlich willkommen!
+              </p>
+              <a
+                href="https://www.lkg-osnabrueck.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block font-medium text-[#1b5e20] hover:underline"
+              >
+                www.lkg-osnabrueck.de
+              </a>
+            </div>
           </div>
         </section>
 
@@ -74,112 +187,250 @@ export default function Home() {
           id="sei-dabei"
           className="border-t border-zinc-200 bg-[#e8f5e9]/50 px-4 py-16 sm:px-6 lg:px-8"
         >
-          <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-[#1b5e20]">Sei dabei!</h2>
-            <p className="mt-4 text-lg font-medium text-zinc-700">
-              Du willst was Neues erleben? Dann bist du bei uns richtig!
-            </p>
-            <p className="mt-6 text-zinc-600 leading-relaxed">
-              Unsere Sippen treffen sich regelmäßig, um die Natur zu erleben, von
-              Gott zu hören, Pfadfindertechniken zu lernen, unsere Freunde zu
-              treffen, zum Singen, zum Spielen und vielem mehr.
-            </p>
-            <p className="mt-4 text-zinc-600 leading-relaxed">
-              Du bist herzlich eingeladen, also komm vorbei!
-            </p>
+          <div className="mx-auto max-w-3xl space-y-12">
+            <div>
+              <h2 className="text-3xl font-bold text-[#1b5e20]">
+                Wie werde ich Pfadfinder bei den Osnabrücker Ottern?
+              </h2>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Du willst dabei sein?
+                Feuer machen, Knoten lernen, draußen unterwegs sein?
+                Dann komm einfach vorbei – dein Abenteuer beginnt mit einem ganz normalen Donnerstag!
+                Gerne können dich deine Eltern bis zum Start begleiten, uns Mitarbeitende kennenlernen und einen Blick auf unsere Pfadfinderwiese werfen.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Erst mal schnuppern …
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Du kannst dreimal unverbindlich mitmachen.
+                Feuerduft schnuppern. Gemeinschaft erleben. Herausfinden, ob das dein Ding ist.
+                Frühestens nach deinem dritten Besuch kannst du dich anmelden – denn wir möchten, dass du sicher weißt: Hier gehöre ich hin.
+                Wenn du bleiben willst, sag einfach der Stammesleitung Bescheid.
+                Wir schicken euch dann alles Weitere per E-Mail zu.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Liebe Eltern:
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Bitte stellen Sie Ihr Kind beim ersten Besuch kurz einem Mitarbeitenden vor und hinterlassen Sie uns eine Kontaktmöglichkeit – damit wir Sie erreichen können, falls einmal etwas ist.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Wo und wann geht&apos;s los?
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Unsere Stammestreffen finden außerhalb der Schulferien
+              </p>
+              <p className="mt-2 font-medium text-zinc-900">
+                donnerstags von 17:00 bis 18:45 Uhr
+              </p>
+              <p className="mt-2 text-zinc-600 leading-relaxed">
+                auf unserer Wiese am Hörner Weg (Zugang links vom Spielplatz) statt.
+                Bei Unwetter ziehen wir ins Haus der Landeskirchliche Gemeinschaft Osnabrück
+                (Lange Straße 19a) um.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Beitrag
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Pfadfinden soll kein Luxus sein.
+                Die Teilnahme ist grundsätzlich kostenlos.
+                Da wir unsere Arbeit ausschließlich über Spenden finanzieren, freuen wir uns über einen freiwilligen Beitrag von etwa 40–50 € pro Jahr und Kind.
+                Und ganz wichtig: Geld darf kein Hindernis sein.
+                Bitte sprechen Sie uns vertrauensvoll an.
+              </p>
+            </div>
+
             <a
               href="#kontakt"
-              className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-[#1b5e20] px-8 font-medium text-white transition-colors hover:bg-[#0d3d12]"
+              className="inline-flex h-12 items-center justify-center rounded-full bg-[#1b5e20] px-8 font-medium text-white transition-colors hover:bg-[#0d3d12]"
             >
               Pfadfinder werden
             </a>
           </div>
         </section>
 
-        {/* Grundlagen */}
+        {/* Unterstützen */}
+        <section
+          id="unterstuetzen"
+          className="border-t border-zinc-200 bg-white px-4 py-16 sm:px-6 lg:px-8"
+        >
+          <div className="mx-auto max-w-3xl space-y-12">
+            <div>
+              <h2 className="text-3xl font-bold text-[#1b5e20]">
+                Unterstütz uns!
+              </h2>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Willst du Kindern ermöglichen, Abenteuer zu erleben, Selbstbewusstsein zu stärken und echte Gemeinschaft zu erfahren?
+                Dann werde Teil unserer Otter-Familie – auf deine Art!
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Finanziell:
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Wir brauchen Mittel für die Pacht unserer Wiese, für Material, Programm und Aktionen. Jede Spende ist willkommen! Die Landeskirchliche Gemeinschaft Osnabrück ist gemeinnützig – zum Jahresanfang erhältst du eine Spendenquittung.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Holzliebhaber:
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Wir lieben es, Feuer zu machen! Brennholzspenden sind daher jederzeit ein riesiger Gewinn für unsere Lagerfeuerabende.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Tatkräftige Hände:
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Auf unserer Wiese gibt es immer etwas zu tun – Rasen mähen, Hütten bauen, Abenteuer vorbereiten. Wenn du Zeit und Lust hast, melde dich gerne unter pfadfinder@ec-os.de – wir freuen uns auf deine Unterstützung!
+              </p>
+            </div>
+
+            <p className="text-zinc-600 leading-relaxed">
+              Jede Unterstützung bringt Kinderaugen zum Leuchten, stärkt unsere Gemeinschaft und sorgt dafür, dass die Otter weiterhin wild, mutig und fröhlich unterwegs sein können.
+            </p>
+
+            <div>
+              <h3 className="text-2xl font-bold text-[#1b5e20]">
+                Unterstützt und gefördert werden wir durch:
+              </h3>
+
+              <div className="mt-8 space-y-8">
+                <div>
+                  <h4 className="text-lg font-semibold text-[#1b5e20]">
+                    Landeskirchliche Gemeinschaft Osnabrück (LKG)
+                  </h4>
+                  <p className="mt-2 text-zinc-600 leading-relaxed">
+                    Die Landeskirchliche Gemeinschaft Osnabrück ist die Gemeinde, die im wahrsten Sinne hinter den Ottern steht. Hier finden wir Menschen, die uns finanziell sowie mit Rat und Tat zur Seite stehen und unsere Arbeit engagiert mittragen. So haben beispielsweise Männer der LKG unsere große Materialhütte gebaut und durch Spenden mitfinanziert. Die LKG ist unser verlässlicher Rückhalt.
+                  </p>
+                  <a
+                    href="https://www.lkg-osnabrueck.de"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-block font-medium text-[#1b5e20] hover:underline"
+                  >
+                    www.lkg-osnabrueck.de
+                  </a>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-[#1b5e20]">
+                    Pfadfinderbund PEC
+                  </h4>
+                  <p className="mt-2 text-zinc-600 leading-relaxed">
+                    Der PEC ist unser Pfadfinderbund. Bundesweit werden Schulungen und Lager angeboten, Materialien entwickelt und bereitgestellt. Zudem erhalten wir Begleitung und Coaching durch die Bundesleitung. Diese Einbindung stärkt unsere Arbeit vor Ort und verbindet uns mit anderen Stämmen.
+                  </p>
+                  <a
+                    href="https://www.ec.de/arbeitsbereiche/pfadfinder/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-block font-medium text-[#1b5e20] hover:underline"
+                  >
+                    https://www.ec.de/arbeitsbereiche/pfadfinder/
+                  </a>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-[#1b5e20]">
+                    Evangelische Stiftungen Osnabrück
+                  </h4>
+                  <p className="mt-2 text-zinc-600 leading-relaxed">
+                    Den Evangelischen Stiftungen gehört die Wiese, die wir seit 2021 pachten. Seit Mai 2026 stellen sie uns die gesamte Fläche zur Verfügung. Dabei kommen sie uns beim Pachtzins sehr entgegen und unterstützen uns auch finanziell bei Anschaffungen, zum Beispiel beim Kauf unseres Hochgrasrasenmähers. Für die vertrauensvolle Zusammenarbeit und das uns entgegengebrachte Vertrauen sind wir sehr dankbar.
+                  </p>
+                  <a
+                    href="https://www.stiftungen-osnabrueck.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-block font-medium text-[#1b5e20] hover:underline"
+                  >
+                    https://www.stiftungen-osnabrueck.de/
+                  </a>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-[#1b5e20]">
+                    Stadtjugendring Osnabrück und Stadt Osnabrück
+                  </h4>
+                  <p className="mt-2 text-zinc-600 leading-relaxed">
+                    Wir sind Mitglied im Stadtjugendring Osnabrück. Hier vernetzen sich die verschiedenen Träger der Jugendarbeit in Osnabrück. Dadurch stehen wir in engem Austausch mit anderen Jugendorganisationen vor Ort.
+                    Über den Stadtjugendring können wir zudem Förderanträge bei der Stadt Osnabrück stellen. Die Stadt unterstützt beispielsweise Teilnehmende unserer Lager sowie die Anschaffung neuer Materialien – diese mit einer Förderung von 50 %. Das ist für unsere Arbeit eine große Hilfe.
+                  </p>
+                  <a
+                    href="https://www.sjr-osnabrueck.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-block font-medium text-[#1b5e20] hover:underline"
+                  >
+                    https://www.sjr-osnabrueck.de/
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Grundlagen - Kinder- und Jugendschutz */}
         <section
           id="grundlagen"
-          className="border-t border-zinc-200 bg-white px-4 py-16 sm:px-6 lg:px-8"
-        >
-          <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-[#1b5e20]">Grundlagen</h2>
-            <div className="mt-8 space-y-12">
-              <div>
-                <h3 className="text-xl font-semibold text-[#1b5e20]">Leitbild</h3>
-                <p className="mt-4 text-zinc-600 leading-relaxed">
-                  Als PEC-Pfadfinder sind wir entschieden für Christus. Unser
-                  Leitbild prägt unsere Gemeinschaft und unsere Arbeit mit Kindern
-                  und Jugendlichen.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1b5e20]">
-                  Kindesschutz
-                </h3>
-                <p className="mt-4 text-zinc-600 leading-relaxed">
-                  Der Schutz von Kindern und Jugendlichen hat bei uns höchste
-                  Priorität. Wir haben ein umfassendes Schutzkonzept entwickelt
-                  und alle Mitarbeitenden werden entsprechend geschult.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Galerie */}
-        <section
-          id="galerie"
           className="border-t border-zinc-200 bg-[#e8f5e9]/50 px-4 py-16 sm:px-6 lg:px-8"
         >
-          <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-[#1b5e20]">Galerie</h2>
-            <p className="mt-4 text-zinc-600 leading-relaxed">
-              Hier findest du Eindrücke aus unserem Pfadfinder-Alltag – von
-              Lagern, Fahrten und gemeinsamen Aktionen.
-            </p>
-            <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {[1, 2, 3].map((i) => (
-                <div
-                  key={i}
-                  className="flex aspect-video items-center justify-center rounded-lg border-2 border-dashed border-[#1b5e20]/40 bg-[#e8f5e9]/80 text-[#1b5e20]/60"
-                >
-                  Bild {i}
-                </div>
-              ))}
+          <div className="mx-auto max-w-3xl space-y-12">
+            <div>
+              <h2 className="text-3xl font-bold text-[#1b5e20]">
+                Kinder- und Jugendschutz
+              </h2>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Der Schutz und das Wohl von Kindern und Jugendlichen bilden die Grundlage unserer Arbeit. Wir möchten, dass sich alle Mädchen und Jungen – ebenso wie unsere Mitarbeitenden – bei uns sicher fühlen und ihre Persönlichkeit frei entfalten können.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Dafür setzen wir uns klar ein:
+              </p>
+              <ul className="mt-4 list-inside list-disc space-y-2 text-zinc-600">
+                <li>für den Schutz von Kindern und Jugendlichen</li>
+                <li>gegen körperliche, seelische oder sexualisierte Gewalt</li>
+                <li>gegen Diskriminierung und Abwertung</li>
+                <li>für ein respektvolles und sensibles Miteinander</li>
+                <li>und für eine Kultur, in der persönliche Grenzen geachtet werden</li>
+              </ul>
             </div>
-          </div>
-        </section>
 
-        {/* Berichte */}
-        <section
-          id="berichte"
-          className="border-t border-zinc-200 bg-white px-4 py-16 sm:px-6 lg:px-8"
-        >
-          <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-[#1b5e20]">
-              Aus dem Pfadfinder-Alltag
-            </h2>
-            <p className="mt-4 text-zinc-600 leading-relaxed">
-              Berichte von unseren Lagern, Hajks und besonderen Aktionen.
-            </p>
-            <div className="mt-8 space-y-8">
-              <article className="rounded-lg border border-zinc-200 border-l-4 border-l-[#1b5e20] bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#1b5e20]">
-                  Platzhalter Bericht 1
-                </h3>
-                <p className="mt-2 text-zinc-600">
-                  Hier erscheinen zukünftige Berichte von unseren Aktionen und
-                  Erlebnissen.
-                </p>
-              </article>
-              <article className="rounded-lg border border-zinc-200 border-l-4 border-l-[#1b5e20] bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#1b5e20]">
-                  Platzhalter Bericht 2
-                </h3>
-                <p className="mt-2 text-zinc-600">
-                  Weitere Berichte folgen in Kürze.
-                </p>
-              </article>
+            <div>
+              <h3 className="text-xl font-bold text-[#1b5e20]">
+                Umsetzung in der Praxis
+              </h3>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Gemeinsam mit der Landeskirchliche Gemeinschaft Osnabrück haben wir ein internes Schutzkonzept entwickelt. Es beschreibt unsere Maßnahmen zur Prävention von Gewalt.
+                Unser Ziel: Kinder und Jugendliche bestmöglich vor Gefahren schützen und den Zugriff potenzieller Täterinnen oder Täter verhindern.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Zu den Maßnahmen gehören unter anderem:
+              </p>
+              <ul className="mt-4 list-inside list-disc space-y-2 text-zinc-600">
+                <li>verpflichtende Präventionsschulungen für alle volljährigen Mitarbeitenden</li>
+                <li>Vorlage eines polizeilichen Führungszeugnisses</li>
+                <li>Unterzeichnung einer Selbstverpflichtungserklärung</li>
+              </ul>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Bei Fragen zu unserem Schutzkonzept oder zum Thema Kinder- und Jugendschutz steht unsere Stammesleitung jederzeit gerne zur Verfügung.
+              </p>
             </div>
           </div>
         </section>
@@ -187,24 +438,32 @@ export default function Home() {
         {/* Kontakt */}
         <section
           id="kontakt"
-          className="border-t border-zinc-200 bg-[#e8f5e9]/50 px-4 py-16 sm:px-6 lg:px-8"
+          className="border-t border-zinc-200 bg-white px-4 py-16 sm:px-6 lg:px-8"
         >
           <div className="mx-auto max-w-3xl">
             <h2 className="text-3xl font-bold text-[#1b5e20]">Kontakt</h2>
             <p className="mt-4 text-zinc-600 leading-relaxed">
-              Du hast Fragen oder möchtest uns besuchen? Wir freuen uns von dir
-              zu hören!
+              Du hast Fragen oder möchtest uns besuchen? Wir freuen uns von dir zu hören!
             </p>
             <div className="mt-8 space-y-4">
               <p className="font-medium text-zinc-900">
                 PEC Osnabrücker Otter – Stamm 0904
               </p>
               <p className="text-zinc-600">
-                [Adresse wird ergänzt]
+                Stammestreffen: donnerstags 17:00–18:45 Uhr (außerhalb der Schulferien)
               </p>
               <p className="text-zinc-600">
-                E-Mail: [Kontakt wird ergänzt]
+                Wiese am Hörner Weg (Zugang links vom Spielplatz)
               </p>
+              <p className="text-zinc-600">
+                Bei Unwetter: Haus der Landeskirchliche Gemeinschaft Osnabrück, Lange Straße 19a
+              </p>
+              <a
+                href="mailto:pfadfinder@ec-os.de"
+                className="block font-medium text-[#1b5e20] hover:underline"
+              >
+                pfadfinder@ec-os.de
+              </a>
             </div>
           </div>
         </section>

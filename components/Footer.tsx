@@ -25,7 +25,7 @@ export default function Footer() {
               href="#grundlagen"
               className="text-sm text-zinc-600 transition-colors hover:text-[#1b5e20]"
             >
-              Kinderschutzkonzept
+              Kinder- und Jugendschutz
             </a>
           </nav>
         </div>

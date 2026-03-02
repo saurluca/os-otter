@@ -5,9 +5,8 @@ import { useState } from "react";
 const navItems = [
   { label: "Über uns", href: "#ueber-uns" },
   { label: "Sei dabei!", href: "#sei-dabei" },
-  { label: "Grundlagen", href: "#grundlagen" },
-  { label: "Galerie", href: "#galerie" },
-  { label: "Berichte", href: "#berichte" },
+  { label: "Unterstützen", href: "#unterstuetzen" },
+  { label: "Kindesschutz", href: "#grundlagen" },
   { label: "Kontakt", href: "#kontakt" },
 ];
 
