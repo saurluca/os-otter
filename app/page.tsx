@@ -42,25 +42,31 @@ export default function Home() {
             <div className="absolute inset-0 bg-[#1b5e20]/70" />
           </div>
           <div className="relative z-10 max-w-3xl">
-            <div className="mb-8 flex justify-center gap-6">
-              <Image
+            <div className="flex w-full max-w-8xl items-center justify-between gap-6 px-4">
+              {/* <Image
                 src="/logo.jpeg"
                 alt="Osnabrücker Otter"
-                width={120}
-                height={120}
-                className="rounded-full object-contain drop-shadow-lg"
-              />
-              <Image
+                width={140}
+                height={140}
+                className="shrink-0 rounded-full object-contain drop-shadow-lg"
+              /> */}
+              <h1 className="text-3xl font-bold tracking-tight text-white drop-shadow-lg sm:text-4xl lg:text-5xl">
+                Osnabrücker Otter
+                <br />
+                PEC-Pfadfinder
+                <br />
+
+                <br />
+                Hier beginnt dein Abenteuer!
+              </h1>
+              {/* <Image
                 src="/pfadfinder_logo.jpeg"
                 alt="PEC Pfadfinder"
-                width={80}
-                height={80}
-                className="object-contain drop-shadow-lg"
-              />
+                width={100}
+                height={100}
+                className="shrink-0 object-contain drop-shadow-lg"
+              /> */}
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl">
-              Lass dein Abenteuer beginnen.
-            </h1>
             <a
               href="#bei-uns"
               className="mt-10 inline-flex h-12 items-center justify-center rounded-full bg-white px-8 font-medium text-[#1b5e20] transition-colors hover:bg-amber-50 hover:shadow-lg"
@@ -79,9 +85,25 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-[#1b5e20]">
               Bei uns erlebst du
             </h2>
-            <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
-              Feuer machen, Knoten lernen, draußen unterwegs sein – hier wird gesungen und gelacht, ausprobiert, gebaut und gewagt. Hier wachsen Mut, Verantwortung und Vertrauen. Wöchentliche Treffen, Lager, Aktionen, Fahrten – richtig geniale Sachen! Bist du gern mit Freunden zusammen? Magst du die Natur und willst Abenteuer erleben? Dann bist du bei den Osnabrücker Ottern genau richtig.
-            </p>
+            <div className="mt-6 space-y-4 text-lg text-zinc-600 leading-relaxed">
+              <p>
+                Feuer machen und schnitzen.
+                In Kohten und Jurten übernachten, die nach Abenteuer riechen.
+                Draußen sein. Sonne und Wind im Gesicht. Matsch an den Schuhen.
+              </p>
+              <p>
+                Freunde finden, die zusammenhalten.
+                Neues wagen und entdecken, was in dir steckt.
+                Und erleben:
+                Du bist gewollt – von Menschen und von Gott.
+              </p>
+              <p className="font-semibold text-zinc-800">
+                Klingt gut?
+                Dann sei dabei – dein Abenteuer wartet.
+                <br />
+                Allzeit bereit!
+              </p>
+            </div>
           </div>
         </section>
 
@@ -121,20 +143,16 @@ export default function Home() {
             </p>
             <ul className="mt-8 grid gap-4 sm:grid-cols-2">
               <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-[#1b5e20]">•</span>
                 <span className="text-zinc-700">Verantwortung übernehmen</span>
               </li>
               <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-[#1b5e20]">•</span>
                 <span className="text-zinc-700">Als Team zusammenzuarbeiten</span>
               </li>
               <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-[#1b5e20]">•</span>
                 <span className="text-zinc-700">Die Natur schätzen und schützen</span>
               </li>
               <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-[#1b5e20]">•</span>
-                <span className="text-zinc-700">Herausforderungen mutig angehen</span>
+                <span className="text-zinc-700">Learning by doing</span>
               </li>
             </ul>
           </div>
@@ -194,7 +212,9 @@ export default function Home() {
               Komm vorbei!
             </h2>
             <p className="mt-4 text-lg text-zinc-600 leading-relaxed">
-              Dein Abenteuer beginnt mit einem ganz normalen Donnerstag. Dreimal unverbindlich schnuppern – dann entscheidest du.
+              Für Kinder und Jugendliche ab 8 Jahren.
+              <br />
+              Dreimal kannst du unverbindlich schnuppern und dann entscheidest du.
             </p>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-3">
@@ -220,9 +240,9 @@ export default function Home() {
               <div className="rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
                 <p className="font-semibold text-[#1b5e20]">Kosten?</p>
                 <p className="mt-2 text-zinc-600">
-                  Kostenlos zum Schnuppern.
+                  Grundsätzlich kostenlos.
                   <br />
-                  <span className="text-sm">Freiwilliger Beitrag ca. 40–50 €/Jahr. Geld darf kein Hindernis sein.</span>
+                  <span className="text-sm">Freiwilliger Beitrag ca. 40–50 €/Jahr. Geld soll kein Hindernis sein.</span>
                 </p>
               </div>
             </div>
