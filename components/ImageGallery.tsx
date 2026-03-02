@@ -16,10 +16,19 @@ const GALERIE_IMAGES = [
 ];
 
 export default function ImageGallery() {
-  const [lightboxImage, setLightboxImage] = useState<{
-    src: string;
-    alt: string;
-  } | null>(null);
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+
+  const currentImage = lightboxIndex !== null ? GALERIE_IMAGES[lightboxIndex] : null;
+  const hasPrev = lightboxIndex !== null && lightboxIndex > 0;
+  const hasNext = lightboxIndex !== null && lightboxIndex < GALERIE_IMAGES.length - 1;
+
+  const goToPrev = () => {
+    if (hasPrev) setLightboxIndex(lightboxIndex! - 1);
+  };
+
+  const goToNext = () => {
+    if (hasNext) setLightboxIndex(lightboxIndex! + 1);
+  };
 
   return (
     <>
@@ -28,12 +37,7 @@ export default function ImageGallery() {
           <button
             key={src}
             type="button"
-            onClick={() =>
-              setLightboxImage({
-                src: `/${src}`,
-                alt: `Pfadfinder-Erlebnis ${i + 1}`,
-              })
-            }
+            onClick={() => setLightboxIndex(i)}
             className="group relative aspect-[4/3] overflow-hidden rounded-lg shadow-md ring-2 ring-amber-900/10 transition-transform hover:scale-[1.02] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#1b5e20] focus:ring-offset-2"
           >
             <Image
@@ -48,10 +52,14 @@ export default function ImageGallery() {
       </div>
 
       <ImageLightbox
-        src={lightboxImage?.src ?? ""}
-        alt={lightboxImage?.alt ?? ""}
-        isOpen={!!lightboxImage}
-        onClose={() => setLightboxImage(null)}
+        src={currentImage ? `/${currentImage}` : ""}
+        alt={currentImage ? `Pfadfinder-Erlebnis ${lightboxIndex! + 1}` : ""}
+        isOpen={lightboxIndex !== null}
+        onClose={() => setLightboxIndex(null)}
+        onPrev={goToPrev}
+        onNext={goToNext}
+        hasPrev={hasPrev}
+        hasNext={hasNext}
       />
     </>
   );
