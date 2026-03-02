@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Impressum & Datenschutz - PEC Osnabrücker Otter",
+  title: "Impressum & Datenschutz",
   description: "Impressum und Datenschutzerklärung der Osnabrücker Otter.",
+  robots: { index: false, follow: true },
 };
 
 export default function ImpressumPage() {

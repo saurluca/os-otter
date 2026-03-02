@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Was steht an - PEC Osnabrücker Otter",
-  description: "Aktuelle Termine und Veranstaltungen der Osnabrücker Otter.",
+  title: "Was steht an",
+  description: "Aktuelle Termine, Lager, Hajks und Veranstaltungen der Osnabrücker Otter.",
+  keywords: ["Termine", "Lager", "Hajk", "Pfingstlager", "Heijke"],
 };
 
 export default function WasStehtAnPage() {

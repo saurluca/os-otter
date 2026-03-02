@@ -1,6 +1,18 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ImageGallery from "@/components/ImageGallery";
+
+export const metadata: Metadata = {
+  title: { absolute: "PEC Osnabrücker Otter - Stamm 09-04" },
+  description:
+    "Christliche Pfadfinder in Osnabrück. Abenteuer erleben, Gemeinschaft erfahren – für Kinder und Jugendliche ab 8 Jahren. Donnerstags 17:00 Uhr, PEC Pfadfinderwiese.",
+  openGraph: {
+    title: "PEC Osnabrücker Otter - Christliche Pfadfinder Osnabrück",
+    description:
+      "Christliche Pfadfinder in Osnabrück. Abenteuer erleben, Gemeinschaft erfahren – für Kinder und Jugendliche ab 8 Jahren.",
+  },
+};
 
 export default function Home() {
   return (

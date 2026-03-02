@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Kinder- und Jugendschutz - PEC Osnabrücker Otter",
-  description: "Unser Schutzkonzept für Kinder und Jugendliche.",
+  title: "Kinder- und Jugendschutz",
+  description: "Unser Schutzkonzept für Kinder und Jugendliche. Prävention von Gewalt.",
+  keywords: ["Jugendschutz", "Kinderschutz", "Schutzkonzept", "Prävention"],
 };
 
 export default function JugendschutzPage() {

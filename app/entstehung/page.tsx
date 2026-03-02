@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Über uns - PEC Osnabrücker Otter",
-  description: "Geschichte und Namensherkunft der Osnabrücker Otter.",
+  title: "Entstehung",
+  description: "Geschichte und Namensherkunft der Osnabrücker Otter. Warum wir Otter heißen.",
+  keywords: ["Osnabrücker Otter", "Geschichte", "Pfadfinder Stamm"],
 };
 
 export default function UeberUnsPage() {

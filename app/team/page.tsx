@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Team - PEC Osnabrücker Otter",
-  description: "Das Team der Osnabrücker Otter.",
+  title: "Team",
+  description: "Das Team der Osnabrücker Otter. Stammesleitung und Mitarbeitende.",
 };
 
 export default function TeamPage() {

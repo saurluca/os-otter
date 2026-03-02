@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Unterstützen - PEC Osnabrücker Otter",
-  description: "Unterstütze die Pfadfinderarbeit der Osnabrücker Otter.",
+  title: "Unterstützen",
+  description: "Unterstütze die Pfadfinderarbeit der Osnabrücker Otter. Spenden, Holzliebhaber, tatkräftige Hände.",
+  keywords: ["Spenden", "Unterstützung", "Pfadfinder Osnabrück"],
 };
 
 export default function UnterstuetzenPage() {
