@@ -5,6 +5,7 @@ import { useState } from "react";
 const navItems = [
   { label: "Über uns", href: "#ueber-uns" },
   { label: "Sei dabei!", href: "#sei-dabei" },
+  { label: "Galerie", href: "#galerie" },
   { label: "Unterstützen", href: "#unterstuetzen" },
   { label: "Kindesschutz", href: "#grundlagen" },
   { label: "Kontakt", href: "#kontakt" },
@@ -14,7 +15,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b-2 border-[#1b5e20] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/95">
+    <header className="sticky top-0 z-50 w-full border-b-2 border-[#1b5e20] bg-[#faf8f5]/95 backdrop-blur supports-[backdrop-filter]:bg-[#faf8f5]/95 shadow-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <a
           href="#hero"

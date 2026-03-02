@@ -27,3 +27,16 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
+
+/* Adventurous scout-style decorative border */
+.scout-border {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--pec-green) 20%,
+    var(--pec-green) 80%,
+    transparent 100%
+  );
+  height: 3px;
+  opacity: 0.3;
+}
