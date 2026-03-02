@@ -20,9 +20,33 @@ export default function WasStehtAnPage() {
           Hier findest du aktuelle Termine, Lager, Hajks und besondere Aktionen der Osnabrücker Otter.
         </p>
 
-        <p className="mt-6 text-zinc-500">
-          [Platzhalter: Termine und Veranstaltungen können hier ergänzt werden]
-        </p>
+        <div className="mt-10 space-y-6">
+          <article className="rounded-lg border border-amber-900/20 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-bold text-[#1b5e20]">Heijke</h2>
+            <p className="mt-2 font-medium text-zinc-700">25.04. – 26.04.2026</p>
+            <p className="mt-2 text-zinc-600">Wanderung mit Rucksack und Übernachtung</p>
+          </article>
+          <article className="rounded-lg border border-amber-900/20 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-bold text-[#1b5e20]">Pfingstlager</h2>
+            <p className="mt-2 font-medium text-zinc-700">22.05. – 25.05.2026</p>
+            <p className="mt-2 text-zinc-600">bei Oldenburg</p>
+          </article>
+          <article className="rounded-lg border border-amber-900/20 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-bold text-[#1b5e20]">Flohmarkt-Stand Straßenfest</h2>
+            <p className="mt-2 font-medium text-zinc-700">05.09.2026</p>
+            <p className="mt-2 text-zinc-600">Lange Straße</p>
+          </article>
+          <article className="rounded-lg border border-amber-900/20 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-bold text-[#1b5e20]">Adventsbasar & Weihnachtsfeier</h2>
+            <p className="mt-2 font-medium text-zinc-700">29.11.2026</p>
+            <p className="mt-2 text-zinc-600">Landeskirchliche Gemeinschaft Osnabrück (LKG) - Lange Straße 19a</p>
+          </article>
+          <article className="rounded-lg border border-amber-900/20 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-bold text-[#1b5e20]">Friedenslicht im Heiligabend-Gottesdienst</h2>
+            <p className="mt-2 font-medium text-zinc-700">24.12.2026</p>
+            <p className="mt-2 text-zinc-600">auf dem Hoffmeier Platz</p>
+          </article>
+        </div>
       </main>
     </div>
   );
