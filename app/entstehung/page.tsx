@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function UeberUnsPage() {
           ← Zurück zur Startseite
         </Link>
 
-        <h1 className="text-4xl font-bold text-[#1b5e20]">Über uns</h1>
+        <h1 className="text-4xl font-bold text-[#1b5e20]">Entstehung</h1>
 
         <section className="mt-12">
           <h2 className="text-2xl font-bold text-[#1b5e20]">Wie sind wir entstanden?</h2>
@@ -28,9 +29,6 @@ export default function UeberUnsPage() {
             Am 23. September 2021 fand unsere erste Gruppenstunde im Haus der LKG statt.
             Seit Mai 2022 haben wir unsere eigene Wiese am Hörner Weg – unser Zuhause für Abenteuer, Gemeinschaft und unvergessliche Erlebnisse.
           </p>
-          <p className="mt-4 text-zinc-600 leading-relaxed">
-            So begann unsere Reise. Und sie geht weiter – mutig, gemeinsam und mit offenen Armen für jedes neue Mitglied.
-          </p>
         </section>
 
         <section className="mt-12">
@@ -38,13 +36,26 @@ export default function UeberUnsPage() {
           <p className="mt-4 text-zinc-600 leading-relaxed">
             In unserem Pfadfinderbund bekommt jeder Stamm den Namen eines Tieres – eines Tieres, dessen Eigenschaften wir uns für unseren Stamm wünschen.
           </p>
-          <p className="mt-4 text-zinc-600 leading-relaxed">
-            Otter sind faszinierende Tiere: Sie schlafen nachts auf dem Wasser und halten sich dabei fest, damit niemand verloren geht. Genau das zeigt auch unser Logo.
-          </p>
-          <p className="mt-4 text-zinc-600 leading-relaxed">
-            Wir wollen eine Gemeinschaft sein, die trägt – füreinander da ist, einander Halt gibt und Abenteuer gemeinsam meistert.
-            Deshalb sind wir die Osnabrücker Otter.
-          </p>
+          <div className="mt-6 flex flex-col items-center gap-6 sm:flex-row sm:items-start">
+            <div className="shrink-0">
+              <Image
+                src="/logo.jpeg"
+                alt="Osnabrücker Otter Logo – zwei Otter halten sich im Wasser fest"
+                width={160}
+                height={160}
+                className="rounded-full object-contain"
+              />
+            </div>
+            <div>
+              <p className="text-zinc-600 leading-relaxed">
+                Otter sind faszinierende Tiere: Sie schlafen nachts auf dem Wasser und halten sich dabei fest, damit niemand verloren geht. Genau das zeigt auch unser Logo.
+              </p>
+              <p className="mt-4 text-zinc-600 leading-relaxed">
+                Wir wollen eine Gemeinschaft sein, die trägt – füreinander da ist, einander Halt gibt und Abenteuer gemeinsam meistert.
+                Deshalb sind wir die Osnabrücker Otter.
+              </p>
+            </div>
+          </div>
         </section>
       </main>
     </div>

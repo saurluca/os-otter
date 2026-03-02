@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-zinc-400">
-            Copyright © {currentYear} - PEC Osnabrücker Otter - Stamm 0904
+            Copyright © {currentYear} - PEC Osnabrücker Otter - Stamm 09-04
           </p>
           <nav className="flex flex-wrap justify-center gap-4 sm:gap-6">
             <Link

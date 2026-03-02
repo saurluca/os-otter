@@ -39,37 +39,22 @@ export default function Home() {
               className="object-cover"
               sizes="100vw"
             />
-            <div className="absolute inset-0 bg-[#1b5e20]/70" />
+            <div className="absolute inset-0 bg-zinc-800/60" />
           </div>
-          <div className="relative z-10 max-w-3xl">
-            <div className="flex w-full max-w-8xl items-center justify-between gap-6 px-4">
-              {/* <Image
-                src="/logo.jpeg"
-                alt="Osnabrücker Otter"
-                width={140}
-                height={140}
-                className="shrink-0 rounded-full object-contain drop-shadow-lg"
-              /> */}
-              <h1 className="text-3xl font-bold tracking-tight text-white drop-shadow-lg sm:text-4xl lg:text-5xl">
-                Osnabrücker Otter
-                <br />
-                PEC-Pfadfinder
-                <br />
-
-                <br />
-                Hier beginnt dein Abenteuer!
-              </h1>
-              {/* <Image
-                src="/pfadfinder_logo.jpeg"
-                alt="PEC Pfadfinder"
-                width={100}
-                height={100}
-                className="shrink-0 object-contain drop-shadow-lg"
-              /> */}
-            </div>
+          <div className="relative z-10 max-w-3xl text-center">
+            <h3 className="text-xl font-bold text-white drop-shadow-md sm:text-2xl">
+              Osnabrücker Otter
+            </h3>
+            <div className="mx-auto my-4 h-px w-24 bg-white/80" aria-hidden="true" />
+            <h1 className="text-3xl font-bold tracking-tight text-white drop-shadow-lg sm:text-4xl lg:text-5xl">
+              PEC - Pfadfinder Osnabrücker Otter
+            </h1>
+            <p className="mt-4 text-lg text-white/95 drop-shadow-md sm:text-xl">
+              Neue Abenteuer erleben
+            </p>
             <a
               href="#bei-uns"
-              className="mt-10 inline-flex h-12 items-center justify-center rounded-full bg-white px-8 font-medium text-[#1b5e20] transition-colors hover:bg-amber-50 hover:shadow-lg"
+              className="mt-8 inline-flex h-11 items-center justify-center rounded-sm border-2 border-white bg-transparent px-6 font-medium text-white transition-colors hover:bg-white hover:text-[#1b5e20]"
             >
               Mehr erfahren
             </a>
@@ -138,23 +123,35 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-[#1b5e20] text-center">
               Das ist uns wichtig
             </h2>
-            <p className="mt-4 text-center text-zinc-600 leading-relaxed">
-              Wir wollen eine Gemeinschaft sein, die trägt – wo jeder gewollt ist, von Menschen und von Gott. Unser Angebot ist offen für alle.
-            </p>
-            <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-              <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-zinc-700">Verantwortung übernehmen</span>
-              </li>
-              <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-zinc-700">Als Team zusammenzuarbeiten</span>
-              </li>
-              <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-zinc-700">Die Natur schätzen und schützen</span>
-              </li>
-              <li className="flex items-start gap-3 rounded-lg bg-white/80 p-4 shadow-sm">
-                <span className="text-zinc-700">Learning by doing</span>
-              </li>
-            </ul>
+            <div className="mt-8 space-y-6">
+              {/* <p className="mt-4 text-center text-zinc-600 leading-relaxed">
+                Wir wollen eine Gemeinschaft sein, die trägt – wo jeder gewollt ist, von Menschen und von Gott. Unser Angebot ist offen für alle.
+              </p> */}
+              <div className="rounded-lg bg-white/80 p-5 shadow-sm">
+                <p className="font-semibold text-[#1b5e20]">Tragende Gemeinschaft erleben</p>
+                <p className="mt-1 text-zinc-600 leading-relaxed">
+                  Bei uns findest du echte Gemeinschaft, in der man zusammenhält und füreinander da ist.
+                </p>
+              </div>
+              <div className="rounded-lg bg-white/80 p-5 shadow-sm">
+                <p className="font-semibold text-[#1b5e20]">Selbstvertrauen entwickeln</p>
+                <p className="mt-1 text-zinc-600 leading-relaxed">
+                  Schritt für Schritt wächst dein Mut, Neues zu wagen und an dich zu glauben.
+                </p>
+              </div>
+              <div className="rounded-lg bg-white/80 p-5 shadow-sm">
+                <p className="font-semibold text-[#1b5e20]">Dich selbst und seine Gaben entdecken</p>
+                <p className="mt-1 text-zinc-600 leading-relaxed">
+                  Du kannst ausprobieren, was in dir steckt, und deine Stärken entfalten.
+                </p>
+              </div>
+              <div className="rounded-lg bg-white/80 p-5 shadow-sm">
+                <p className="font-semibold text-[#1b5e20]">Gott kennenlernen</p>
+                <p className="mt-1 text-zinc-600 leading-relaxed">
+                  Wir sind christliche Pfadfinder, bei uns kannst du entdecken, wer Gott ist und was das mit deinem Leben zu tun hat.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -229,13 +226,18 @@ export default function Home() {
               <div className="rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
                 <p className="font-semibold text-[#1b5e20]">Wo?</p>
                 <p className="mt-2 text-zinc-600">
-                  Wiese am Hörner Weg
+                  <a
+                    href="https://www.google.de/maps/place/PEC+Pfadfinderwiese+%22Osnabr%C3%BCcker+Otter%22/@52.257195,8.006294,17.94z/data=!4m6!3m5!1s0x47b9efc8e361cbf5:0xb34d52762fc63d3f!8m2!3d52.2579193!4d8.0065595!16s%2Fg%2F11tcsmmgb0?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#1b5e20] hover:underline"
+                  >
+                    PEC Pfadfinderwiese „Osnabrücker Otter“
+                  </a>
                   <br />
-                  <span className="text-sm">(Zugang links vom Spielplatz)</span>
+                  <span className="text-sm">Hinter dem Hörner Weg 47, 49078 Osnabrück</span>
                 </p>
-                <p className="mt-2 text-sm text-zinc-500">
-                  Bei Unwetter: LKG, Lange Straße 19a
-                </p>
+
               </div>
               <div className="rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
                 <p className="font-semibold text-[#1b5e20]">Kosten?</p>
@@ -255,7 +257,7 @@ export default function Home() {
                 pfadfinder@ec-os.de
               </a>
               <Link
-                href="/ueber-uns"
+                href="/entstehung"
                 className="inline-flex h-12 items-center justify-center rounded-full border-2 border-[#1b5e20] px-8 font-medium text-[#1b5e20] transition-colors hover:bg-[#1b5e20]/10"
               >
                 Warum heißen wir Otter?

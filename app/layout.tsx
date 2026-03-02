@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PEC Osnabrücker Otter - Stamm 0904",
+  title: "PEC Osnabrücker Otter - Stamm 09-04",
   description:
-    "PEC Pfadfinder Osnabrücker Otter - Stamm 0904. Christliche Pfadfinderarbeit in Osnabrück. Entschieden für Christus.",
+    "PEC Pfadfinder Osnabrücker Otter - Stamm 09-04. Christliche Pfadfinderarbeit in Osnabrück. Entschieden für Christus.",
 };
 
 export default function RootLayout({

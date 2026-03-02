@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const mainNavItems = [
-  { label: "Über uns", href: "/ueber-uns" },
+  { label: "Entstehung", href: "/Entstehung" },
   { label: "Unterstützen", href: "/unterstuetzen" },
   { label: "Jugendschutz", href: "/jugendschutz" },
   { label: "Team", href: "/team" },
