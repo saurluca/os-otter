@@ -31,14 +31,14 @@ export default function Home() {
           </div>
           <div className="relative z-10 max-w-3xl text-center">
             <h3 className="text-xl font-bold text-white drop-shadow-md sm:text-2xl">
-              Osnabrücker Otter
+              PEC - Pfadfinder
             </h3>
             <div className="mx-auto my-4 h-px w-24 bg-white/80" aria-hidden="true" />
             <h1 className="text-3xl font-bold tracking-tight text-white drop-shadow-lg sm:text-4xl lg:text-5xl">
-              PEC - Pfadfinder Osnabrücker Otter
+              Osnabrücker Otter
             </h1>
             <p className="mt-4 text-lg text-white/95 drop-shadow-md sm:text-xl">
-              Neue Abenteuer erleben
+              Hier beginnt dein Abenteuer!
             </p>
             <a
               href="#bei-uns"
