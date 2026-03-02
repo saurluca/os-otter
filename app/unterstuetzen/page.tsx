@@ -85,7 +85,8 @@ export default function UnterstuetzenPage() {
               <div>
                 <h3 className="text-lg font-semibold text-zinc-900">Stadtjugendring Osnabrück und Stadt Osnabrück</h3>
                 <p className="mt-2 text-zinc-600 leading-relaxed">
-                  Wir sind Mitglied im Stadtjugendring. Die Stadt unterstützt Teilnehmende unserer Lager und die Anschaffung neuer Materialien mit 50 % Förderung.
+                  Wir sind Mitglied im Stadtjugendring.
+                  Über den Stadtjugendring können wir Förderanträge bei der Stadt Osnabrück stellen. Die Stadt unterstützt Teilnehmende unserer Lager und die Anschaffung neuer Materialien mit 50 % Förderung.
                 </p>
                 <a href="https://www.sjr-osnabrueck.de/" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block font-medium text-[#1b5e20] hover:underline">
                   www.sjr-osnabrueck.de
