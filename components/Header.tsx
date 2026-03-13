@@ -6,8 +6,9 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 
 const ueberUnsItems = [
-  { label: "Team", href: "/team" },
-  { label: "Entstehung", href: "/entstehung" },
+  { label: "Team", href: "/ueber-uns#team" },
+  { label: "Entstehung", href: "/ueber-uns#entstehung" },
+  { label: "Zugehörigkeit", href: "/ueber-uns#zugehoerigkeit" },
 ];
 
 const mainNavItems = [
@@ -24,7 +25,7 @@ export default function Header() {
   const ueberUnsRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
-  const isUeberUnsActive = pathname === "/team" || pathname === "/entstehung" || pathname === "/ueber-uns";
+  const isUeberUnsActive = pathname === "/ueber-uns";
 
   useEffect(() => {
     if (!ueberUnsOpen) return;
@@ -65,31 +66,23 @@ export default function Header() {
             <div className="h-4 w-px bg-zinc-300" />
             {/* Über uns dropdown */}
             <div className="relative" ref={ueberUnsRef}>
-              <div className="flex items-center gap-0.5">
-                <Link
-                  href="/ueber-uns"
-                  className={`whitespace-nowrap text-sm font-medium transition-colors hover:text-[#1b5e20] ${isUeberUnsActive ? "text-[#1b5e20]" : "text-zinc-600"}`}
-                >
-                  Über uns
-                </Link>
-                <button
-                  type="button"
-                  onClick={() => setUeberUnsOpen(!ueberUnsOpen)}
-                  className={`px-1 text-xs transition-colors hover:text-[#1b5e20] ${isUeberUnsActive ? "text-[#1b5e20]" : "text-zinc-400"}`}
-                  aria-expanded={ueberUnsOpen}
-                  aria-haspopup="true"
-                  aria-label="Untermenü öffnen"
-                >
-                  <span className={`inline-block transition-transform ${ueberUnsOpen ? "rotate-180" : ""}`}>▼</span>
-                </button>
-              </div>
+              <button
+                type="button"
+                onClick={() => setUeberUnsOpen(!ueberUnsOpen)}
+                className={`flex items-center gap-1 whitespace-nowrap text-sm font-medium transition-colors hover:text-[#1b5e20] ${isUeberUnsActive ? "text-[#1b5e20]" : "text-zinc-600"}`}
+                aria-expanded={ueberUnsOpen}
+                aria-haspopup="true"
+              >
+                Über uns
+                <span className={`text-xs transition-transform duration-200 ${ueberUnsOpen ? "rotate-180" : ""}`}>▼</span>
+              </button>
               {ueberUnsOpen && (
-                <div className="absolute left-0 top-full z-50 mt-1 min-w-[140px] rounded-md border border-zinc-200 bg-white py-1 shadow-lg">
+                <div className="absolute left-0 top-full z-50 mt-1 min-w-[160px] rounded-md border border-zinc-200 bg-white py-1 shadow-lg">
                   {ueberUnsItems.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className={`block px-4 py-2 text-sm transition-colors hover:bg-[#1b5e20]/10 ${pathname === item.href ? "font-medium text-[#1b5e20]" : "text-zinc-600 hover:text-[#1b5e20]"}`}
+                      className="block px-4 py-2 text-sm text-zinc-600 transition-colors hover:bg-[#1b5e20]/10 hover:text-[#1b5e20]"
                       onClick={() => setUeberUnsOpen(false)}
                     >
                       {item.label}
@@ -156,13 +149,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="pt-1">
-              <Link
-                href="/ueber-uns"
-                className="block py-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 hover:text-[#1b5e20]"
-                onClick={() => setMenuOpen(false)}
-              >
-                Über uns
-              </Link>
+              <span className="block py-1 text-xs font-semibold uppercase tracking-wide text-zinc-400">Über uns</span>
               <ul className="pl-2">
                 {ueberUnsItems.map((item) => (
                   <li key={item.href}>
