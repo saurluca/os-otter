@@ -12,7 +12,7 @@ export default function Footer() {
           </p>
           <nav className="flex flex-wrap justify-center gap-4 sm:gap-6">
             <Link
-              href="/kontakt"
+              href="/#kontakt"
               className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
             >
               Kontakt
