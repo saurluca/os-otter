@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Kinder- und Jugendschutz",
+  title: "Schutzkonzept",
   description: "Unser Schutzkonzept für Kinder und Jugendliche. Prävention von Gewalt.",
   keywords: ["Jugendschutz", "Kinderschutz", "Schutzkonzept", "Prävention"],
 };
@@ -15,7 +15,7 @@ export default function JugendschutzPage() {
           ← Zurück zur Startseite
         </Link>
 
-        <h1 className="text-4xl font-bold text-[#1b5e20]">Kinder- und Jugendschutz</h1>
+        <h1 className="text-4xl font-bold text-[#1b5e20]">Schutzkonzept</h1>
         <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
           Der Schutz und das Wohl von Kindern und Jugendlichen bilden die Grundlage unserer Arbeit. Wir möchten, dass sich alle Mädchen und Jungen – ebenso wie unsere Mitarbeitenden – bei uns sicher fühlen und ihre Persönlichkeit frei entfalten können.
         </p>

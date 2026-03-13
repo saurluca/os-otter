@@ -18,8 +18,8 @@ export default function TeamPage() {
 
         <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
           Unsere Stammesleitung und die Mitarbeitenden der Osnabrücker Otter. Bei Fragen oder um mitzumachen, melde dich gerne unter{" "}
-          <a href="mailto:pfadfinder@ec-os.de" className="font-medium text-[#1b5e20] hover:underline">
-            pfadfinder@ec-os.de
+          <a href="mailto:info@pfadfinder-os.de" className="font-medium text-[#1b5e20] hover:underline">
+            info@pfadfinder-os.de
           </a>.
         </p>
 

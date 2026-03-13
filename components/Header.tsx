@@ -8,10 +8,11 @@ import { useState } from "react";
 const mainNavItems = [
   { label: "Entstehung", href: "/entstehung" },
   { label: "Unterstützen", href: "/unterstuetzen" },
-  { label: "Jugendschutz", href: "/jugendschutz" },
+  { label: "Schutzkonzept", href: "/jugendschutz" },
   { label: "Team", href: "/team" },
   { label: "Was steht an", href: "/was-steht-an" },
   { label: "Dokumente", href: "/dokumente" },
+  { label: "Kontakt", href: "/kontakt" },
 ];
 
 export default function Header() {

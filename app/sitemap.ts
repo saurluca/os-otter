@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/team",
     "/was-steht-an",
     "/dokumente",
+    "/kontakt",
     "/impressum",
   ];
 

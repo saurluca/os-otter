@@ -68,23 +68,20 @@ export default function Home() {
         >
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold text-[#1b5e20]">
-              Bei uns erlebst du
+              Bei uns wirst du
             </h2>
             <div className="mt-6 space-y-4 text-lg text-zinc-600 leading-relaxed">
               <p>
-                Feuer machen und schnitzen.
-                In Kohten und Jurten übernachten, die nach Abenteuer riechen.
-                Draußen sein. Sonne und Wind im Gesicht. Matsch an den Schuhen.
+                Feuer machen und schnitzen; in Kohten und Jurten übernachten, die nach Abenteuer riechen;
+                Draußen sein; Sonne und Wind im Gesicht, Matsch an den Schuhen;
+                Freunde finden, die zusammenhalten; Neues wagen und entdecken, was in dir steckt;
               </p>
               <p>
-                Freunde finden, die zusammenhalten.
-                Neues wagen und entdecken, was in dir steckt.
-                Und erleben:
-                Du bist gewollt – von Menschen und von Gott.
+                Und du kannst erleben: Du bist gewollt – von Menschen und von Gott.
               </p>
               <p className="font-semibold text-zinc-800">
                 Klingt gut?
-                Dann sei dabei – dein Abenteuer wartet.
+                Dann sei dabei, dein Abenteuer wartet.
                 <br />
                 Allzeit bereit!
               </p>
@@ -125,7 +122,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="rounded-lg bg-white/80 p-5 shadow-sm">
-                <p className="font-semibold text-[#1b5e20]">Dich selbst und seine Gaben entdecken</p>
+                <p className="font-semibold text-[#1b5e20]">Dich selbst und deine Gaben entdecken</p>
                 <p className="mt-1 text-zinc-600 leading-relaxed">
                   Du kannst ausprobieren, was in dir steckt, und deine Stärken entfalten.
                 </p>
@@ -168,10 +165,10 @@ export default function Home() {
               Zugehörigkeit
             </h2>
             <p className="mt-6 text-zinc-600 leading-relaxed">
-              Als Stamm gehören wir zum PEC (Pfadfinder Entschieden für Christus) und haben unsere Wurzeln in der Landeskirchlichen Gemeinschaft Osnabrück (LKG). Die LKG ist die Keimzelle unseres Stammes – hier entstand die Idee, eine Pfadfindergruppe zu gründen. Die Gemeinde unterstützt unsere Arbeit tatkräftig und finanziell.
+              Als Stamm gehören wir zum PEC (Pfadfinder Entschieden für Christus) und haben unsere Wurzeln in der Landeskirchlichen Gemeinschaft Osnabrück (LKG). Die LKG ist die Keimzelle unseres Stammes. Hier entstand die Idee, eine Pfadfindergruppe zu gründen. Die Gemeinde unterstützt unsere Arbeit tatkräftig und finanziell.
             </p>
             <p className="mt-4 text-zinc-600 leading-relaxed">
-              Wichtig: Eine Mitgliedschaft in der LKG oder eine bestimmte Konfession ist für die Teilnahme keine Voraussetzung – jeder ist herzlich willkommen!
+              Wichtig: Eine Mitgliedschaft in der LKG oder eine bestimmte Konfession ist für die Teilnahme keine Voraussetzung. Jeder ist herzlich willkommen!
             </p>
             <a
               href="https://www.lkg-osnabrueck.de"
@@ -189,28 +186,28 @@ export default function Home() {
           id="kontakt"
           className="border-t-2 border-[#1b5e20] bg-[#faf8f5] px-4 py-20 sm:px-6 lg:px-8"
         >
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold text-[#1b5e20]">
               Komm vorbei!
             </h2>
             <p className="mt-4 text-lg text-zinc-600 leading-relaxed">
               Für Kinder und Jugendliche ab 8 Jahren.
               <br />
-              Dreimal kannst du unverbindlich schnuppern und dann entscheidest du.
+              Dreimal kannst du unverbindlich schnuppern und dann entscheidest du, ob du ein festes Mitglied des Stammes sein möchtest.
             </p>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-3">
-              <div className="rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
+              <div className="flex flex-col rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
                 <p className="font-semibold text-[#1b5e20]">Wann?</p>
-                <p className="mt-2 text-zinc-600">
+                <p className="mt-2 flex flex-1 flex-col justify-center text-zinc-600">
                   Donnerstags 17:00–18:45 Uhr
                   <br />
                   <span className="text-sm">(außerhalb der Schulferien)</span>
                 </p>
               </div>
-              <div className="rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
+              <div className="flex flex-col rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
                 <p className="font-semibold text-[#1b5e20]">Wo?</p>
-                <p className="mt-2 text-zinc-600">
+                <p className="mt-2 flex flex-1 flex-col justify-center text-zinc-600">
                   <a
                     href="https://www.google.de/maps/place/PEC+Pfadfinderwiese+%22Osnabr%C3%BCcker+Otter%22/@52.257195,8.006294,17.94z/data=!4m6!3m5!1s0x47b9efc8e361cbf5:0xb34d52762fc63d3f!8m2!3d52.2579193!4d8.0065595!16s%2Fg%2F11tcsmmgb0?entry=ttu"
                     target="_blank"
@@ -222,24 +219,22 @@ export default function Home() {
                   <br />
                   <span className="text-sm">Hinter dem Hörner Weg 47, 49078 Osnabrück</span>
                 </p>
-
               </div>
-              <div className="rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
+              <div className="flex flex-col rounded-lg bg-white p-6 shadow-md ring-2 ring-amber-900/10">
                 <p className="font-semibold text-[#1b5e20]">Kosten?</p>
-                <p className="mt-2 text-zinc-600">
-                  Grundsätzlich kostenlos.
-                  <br />
-                  <span className="text-sm">Freiwilliger Beitrag ca. 40–50 €/Jahr. Geld soll kein Hindernis sein.</span>
+                <p className="mt-2 flex flex-1 flex-col justify-center text-zinc-600">
+                  <span className="font-bold">Grundsätzlich kostenlos.</span> <br />
+                  Ein freiwilliger Beitrag ~40–50 €/Jahr hilft uns die Kosten zu decken. Geld soll aber kein Hindernis sein.
                 </p>
               </div>
             </div>
 
             <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a
-                href="mailto:pfadfinder@ec-os.de"
+                href="mailto:info@pfadfinder-os.de"
                 className="inline-flex h-12 items-center justify-center rounded-full bg-[#1b5e20] px-8 font-medium text-white transition-colors hover:bg-[#0d3d12]"
               >
-                pfadfinder@ec-os.de
+                info@pfadfinder-os.de
               </a>
               <Link
                 href="/entstehung"
@@ -248,10 +243,6 @@ export default function Home() {
                 Warum heißen wir Otter?
               </Link>
             </div>
-
-            <p className="mt-8 text-sm text-zinc-500">
-              Liebe Eltern: Bitte stellt euer Kind beim ersten Besuch kurz einem Mitarbeitenden vor und hinterlasst eine Kontaktmöglichkeit.
-            </p>
           </div>
         </section>
       </main>

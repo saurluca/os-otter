@@ -90,7 +90,7 @@ export default function RootLayout({
       addressLocality: "Osnabrück",
       postalCode: "49078",
     },
-    email: "pfadfinder@ec-os.de",
+    email: "info@pfadfinder-os.de",
   };
 
   return (

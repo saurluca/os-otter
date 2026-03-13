@@ -12,6 +12,12 @@ export default function Footer() {
           </p>
           <nav className="flex flex-wrap justify-center gap-4 sm:gap-6">
             <Link
+              href="/kontakt"
+              className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
+            >
+              Kontakt
+            </Link>
+            <Link
               href="/impressum"
               className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
             >
@@ -27,7 +33,7 @@ export default function Footer() {
               href="/jugendschutz"
               className="text-sm text-zinc-400 transition-colors hover:text-amber-400"
             >
-              Kinder- und Jugendschutz
+              Schutzkonzept
             </Link>
           </nav>
         </div>

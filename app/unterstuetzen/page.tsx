@@ -18,14 +18,14 @@ export default function UnterstuetzenPage() {
         <h1 className="text-4xl font-bold text-[#1b5e20]">Unterstütz uns!</h1>
         <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
           Willst du Kindern ermöglichen, Abenteuer zu erleben, Selbstbewusstsein zu stärken und echte Gemeinschaft zu erfahren?
-          Dann werde Teil unserer Otter-Familie – auf deine Art!
+          Dann werde auf deine Art Teil unserer Otter-Familie!
         </p>
 
         <div className="mt-12 space-y-10">
           <section>
             <h2 className="text-2xl font-bold text-[#1b5e20]">Finanziell</h2>
             <p className="mt-4 text-zinc-600 leading-relaxed">
-              Wir brauchen Mittel für die Pacht unserer Wiese, für Material, Programm und Aktionen. Jede Spende ist willkommen! Die Landeskirchliche Gemeinschaft Osnabrück ist gemeinnützig – zum Jahresanfang erhältst du eine Spendenquittung.
+              Wir brauchen Mittel für die Pacht unserer Wiese, für Material, Programm und Aktionen. Jede Spende ist willkommen! Die Landeskirchliche Gemeinschaft Osnabrück ist gemeinnützig. Zum Jahresanfang erhältst du eine Spendenquittung.
             </p>
             <div className="mt-6 rounded-lg border border-zinc-200 bg-white p-6 font-mono text-sm text-zinc-700">
               <p className="font-sans font-semibold text-zinc-900">Landeskirchliche Gemeinschaft e.V.</p>
@@ -47,8 +47,8 @@ export default function UnterstuetzenPage() {
             <h2 className="text-2xl font-bold text-[#1b5e20]">Tatkräftige Hände</h2>
             <p className="mt-4 text-zinc-600 leading-relaxed">
               Auf unserer Wiese gibt es immer etwas zu tun – Rasen mähen, Hütten bauen, Abenteuer vorbereiten. Wenn du Zeit und Lust hast, melde dich gerne unter{" "}
-              <a href="mailto:pfadfinder@ec-os.de" className="font-medium text-[#1b5e20] hover:underline">
-                pfadfinder@ec-os.de
+              <a href="mailto:info@pfadfinder-os.de" className="font-medium text-[#1b5e20] hover:underline">
+                info@pfadfinder-os.de
               </a>{" "}
               – wir freuen uns auf deine Unterstützung!
             </p>

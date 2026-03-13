@@ -25,17 +25,17 @@ export default function ImpressumPage() {
           <section>
             <h2 className="text-2xl font-bold text-[#1b5e20]">Impressum</h2>
             <div className="mt-4 space-y-4 text-zinc-600 leading-relaxed">
-              <p className="font-medium text-zinc-800">EC-Jugendarbeit Osnabrück</p>
+              <p className="font-medium text-zinc-800">PEC-Pfadfinder Osnabrück, Stamm 09-04, Osnabrücker Otter</p>
               <p>Lange Straße 19a<br />48090 Osnabrück</p>
               <p>
                 <span className="font-medium text-zinc-800">Vertreten durch:</span><br />
                 Cedric Bublies<br />
-                E-Mail: <a href="mailto:pfadfinder@ec-os.de" className="text-[#1b5e20] hover:underline">pfadfinder@ec-os.de</a>
+                E-Mail: <a href="mailto:info@pfadfinder-os.de" className="text-[#1b5e20] hover:underline">info@pfadfinder-os.de</a>
               </p>
               <p>
                 <span className="font-medium text-zinc-800">Kontakt:</span><br />
-                Telefon: 0541 / 67375790<br />
-                E-Mail: <a href="mailto:pfadfinder@ec-os.de" className="text-[#1b5e20] hover:underline">pfadfinder@ec-os.de</a>
+                Telefon: 015228700474<br />
+                E-Mail: <a href="mailto:info@pfadfinder-os.de" className="text-[#1b5e20] hover:underline">info@pfadfinder-os.de</a>
               </p>
               <p>
                 <span className="font-medium text-zinc-800">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</span><br />
