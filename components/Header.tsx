@@ -142,7 +142,7 @@ export default function Header() {
             <li>
               <Link
                 href="/#kontakt"
-                className="block py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-[#1b5e20]"
+                className="block py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-[#1b5e20]"www
                 onClick={() => setMenuOpen(false)}
               >
                 Mitmachen

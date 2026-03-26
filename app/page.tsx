@@ -72,7 +72,7 @@ export default function Home() {
             <div className="mt-6 space-y-4 text-lg text-zinc-600 leading-relaxed">
               <p>
                 Feuer machen und schnitzen; in Kohten und Jurten übernachten, die nach Abenteuer riechen;
-                Draußen sein; Sonne und Wind im Gesicht, Matsch an den Schuhen;
+                draußen sein; Sonne und Wind im Gesicht, Matsch an den Schuhen haben;
                 Freunde finden, die zusammenhalten; Neues wagen und entdecken, was in dir steckt;
               </p>
               <p>
@@ -192,7 +192,7 @@ export default function Home() {
             <p className="mt-4 text-lg text-zinc-600 leading-relaxed">
               Für Kinder und Jugendliche ab 8 Jahren.
               <br />
-              Dreimal kannst du unverbindlich schnuppern und dann entscheidest du, ob du ein festes Mitglied des Stammes sein möchtest.
+              Komm einfach mal zum Schnuppern vorbei!
             </p>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-3">
