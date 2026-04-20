@@ -30,7 +30,10 @@ export default function Header() {
   useEffect(() => {
     if (!ueberUnsOpen) return;
     const handleClickOutside = (e: MouseEvent) => {
-      if (ueberUnsRef.current && !ueberUnsRef.current.contains(e.target as Node)) {
+      if (
+        ueberUnsRef.current &&
+        !ueberUnsRef.current.contains(e.target as Node)
+      ) {
         setUeberUnsOpen(false);
       }
     };
@@ -52,7 +55,10 @@ export default function Header() {
         </Link>
 
         <div className="flex min-w-0 flex-1 items-center justify-center gap-4">
-          <Link href="/" className="hidden text-xl font-semibold text-[#1b5e20] hover:opacity-90 sm:block">
+          <Link
+            href="/"
+            className="hidden text-xl font-semibold text-[#1b5e20] hover:opacity-90 sm:block"
+          >
             PEC Osnabrücker Otter
           </Link>
           {/* Desktop navigation */}
@@ -74,7 +80,11 @@ export default function Header() {
                 aria-haspopup="true"
               >
                 Über uns
-                <span className={`text-xs transition-transform duration-200 ${ueberUnsOpen ? "rotate-180" : ""}`}>▼</span>
+                <span
+                  className={`text-xs transition-transform duration-200 ${ueberUnsOpen ? "rotate-180" : ""}`}
+                >
+                  ▼
+                </span>
               </button>
               {ueberUnsOpen && (
                 <div className="absolute left-0 top-full z-50 mt-1 min-w-[160px] rounded-md border border-zinc-200 bg-white py-1 shadow-lg">
@@ -142,14 +152,16 @@ export default function Header() {
             <li>
               <Link
                 href="/#kontakt"
-                className="block py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-[#1b5e20]"www
+                className="block py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-[#1b5e20]"
                 onClick={() => setMenuOpen(false)}
               >
                 Mitmachen
               </Link>
             </li>
             <li className="pt-1">
-              <span className="block py-1 text-xs font-semibold uppercase tracking-wide text-zinc-400">Über uns</span>
+              <span className="block py-1 text-xs font-semibold uppercase tracking-wide text-zinc-400">
+                Über uns
+              </span>
               <ul className="pl-2">
                 {ueberUnsItems.map((item) => (
                   <li key={item.href}>
